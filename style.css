@@ -63,8 +63,8 @@ span {
   padding: 5px 15px 5px 15px;
   letter-spacing: 2px;
   color: white;
-  background-color: #12B4FB;
-  /* background-image: linear-gradient(#188f53a4, rgba(88, 158, 137, 0.726)); */
+  
+  background-image: linear-gradient(#188f53a4, rgba(88, 158, 137, 0.726));
 }
 
 /* ----------------------------middle section design --------------------*/
@@ -120,7 +120,7 @@ span {
 /* -------------------Usr feedback design  -------------------------*/
 .user_feedback {
   display: flex;
-  margin: 50px;
+  margin: 40px 100px;
   text-align: center;
   justify-content: center;
   align-items: center;
