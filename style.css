@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* Navigation bar section */
+
+.nav {
+  text-align: center;
+  background-color: #0c95daca;
+  padding: 10px;
+}
+.nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+.nav ul li {
+  float: left;
+}
+.nav ul li a {
+  text-decoration: none;
+  padding: 20px 16px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+/* ----------------------------------Header section-------------------------------------- */
+.text h1 {
+  margin-bottom: 10px;
+}
+.top {
+  display: flex;
+  text-align: justify;
+  margin: 10px 100px 10px 100px;
+}
+.head_text {
+  font-weight: bolder;
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+
+span {
+  color: #12B4FB;
+}
+.top_left {
+  margin-top: 10%;
+}
+.top_right img {
+  width: 520px;
+  height: 350px;
+  margin: 80px auto;
+}
+.button {
+  margin-top: 35px;
+}
+.button a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 30px;
+  padding: 5px 15px 5px 15px;
+  letter-spacing: 2px;
+  color: white;
+  background-color: #12B4FB;
+  /* background-image: linear-gradient(#188f53a4, rgba(88, 158, 137, 0.726)); */
+}
+
+/* ----------------------------middle section design --------------------*/
+.middle {
+  display: flex;
+  text-align: justify;
+  background-image: url(images/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.size {
+  margin: 40px 0px 0px 80px;
+}
+.middle_right {
+  text-align: justify;
+  margin: 60px 50px 30px 0px;
+  width: 40%;
+}
+
+/* ---------------------receipe section design ---------------------------*/
+.simple_text {
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.receipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.receipe h1 {
+  margin: 10px 0px 10px 0px;
+}
+.center {
+  margin: 0 auto;
+  width: 100%;
+}
+.card_1,
+.card_2,
+.card_3 {
+  padding: 10px 5px 10px 40px;
+  width: 320px;
+  height: 500px;
+  margin: 10px;
+  margin-right: 20px;
+  padding: 20px;
+
+  /* border: 3px solid red; */
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px grey;
+}
+/* -------------------Usr feedback design  -------------------------*/
+.user_feedback {
+  display: flex;
+  margin: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 10px grey;
+  border-radius: 10px;
+  padding: 40px;
+}
+.user_feedback_subscriber,
+.user_feedback_followers,
+.user_feedback_like {
+  margin: 20px 300px 10px 0px;
+}
+/* ------------------------------footer design---------------------------------------- */
+.footer {
+  background-color: black;
+  color: white;
+  margin: 50px 0px 0px 0px;
+  height: 200px;
+}
+.footer_text {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.form {
+  margin-left: 30px;
+}
+input,
+textarea {
+  width: 450px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.submit {
+  background-color: #12B4FB;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+}
+.submit a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.form-shadow{
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px grey;
+  margin: 0px 400px
+}
